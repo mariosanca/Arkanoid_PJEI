@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5440255126619962532}
   - component: {fileID: 5440255126619962531}
   - component: {fileID: 9102512403122273973}
+  - component: {fileID: 5606681972008380097}
   m_Layer: 0
   m_Name: Espiritu_Medio
   m_TagString: Untagged
@@ -126,3 +127,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.004425, y: 1.000649}
   m_EdgeRadius: 0
+--- !u!114 &5606681972008380097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5440255126619962530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2cbb1f393f64e4db709f6eadac1c13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
