@@ -48,4 +48,18 @@ public class GameController : MonoBehaviour
     {
         animMenuSeleccion.SetBool("activar", true);
     }
+
+    public void LvlFacil()
+    {
+        SceneManager.LoadScene(sceneName: "lvlFACIL");
+    }
+    public void LvlMedio()
+    {
+        SceneManager.LoadScene(sceneName: "lvlMEDIO");
+    }
+    public void LvlDificil()
+    {
+        SceneManager.LoadScene(sceneName: "lvlDIFICIL");
+    }
+
 }

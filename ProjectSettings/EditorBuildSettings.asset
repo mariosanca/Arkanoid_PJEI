@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a662a78ba7ec193419607bef9c4c313f
+  - enabled: 1
+    path: Assets/Scenes/lvlFACIL.unity
+    guid: 594dcf58fca883d45a4345ed83f9d403
+  - enabled: 1
+    path: Assets/Scenes/lvlMEDIO.unity
+    guid: bf170d60c5a15df4399f389dea4ee325
+  - enabled: 1
+    path: Assets/Scenes/lvlDIFICIL.unity
+    guid: 2e41bbd064032d941b90d843f0380945
   m_configObjects: {}
