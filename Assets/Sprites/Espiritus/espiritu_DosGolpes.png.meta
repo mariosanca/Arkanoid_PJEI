@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: ebea61106a28c1145aa073488321bdca
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: espiritu_DosGolpes_G1_f2
+    21300002: espiritu_DosGolpes_1
+    21300004: espiritu_DosGolpes_2
+    21300006: espiritu_DosGolpes_3
+    21300008: espiritu_DosGolpes_4
+    21300010: espiritu_DosGolpes_5
+    21300012: espiritu_DosGolpes_6
+    21300014: espiritu_DosGolpes_7
+    21300016: espiritu_DosGolpes_8
+    21300018: espiritu_DosGolpes_9
+    21300020: espiritu_DosGolpes_10
+    21300022: espiritu_DosGolpes_11
+    21300024: espiritu_DosGolpes_12
+    21300026: espiritu_DosGolpes_13
+    21300028: espiritu_DosGolpes_14
+    21300030: espiritu_DosGolpes_15
+    21300032: espiritu_DosGolpes_16
+    21300034: espiritu_DosGolpes_G2_f1
+    21300036: espiritu_DosGolpes_18
+    21300038: espiritu_DosGolpes_19
+    21300040: espiritu_DosGolpes_20
+    21300042: espiritu_DosGolpes_G2_f2
+    21300044: espiritu_DosGolpes_22
+    21300046: espiritu_DosGolpes_23
+    21300048: espiritu_DosGolpes_24
+    21300050: espiritu_DosGolpes_G1_f1
+    21300052: espiritu_DosGolpes_26
+    21300054: espiritu_DosGolpes_27
+    21300056: espiritu_DosGolpes_28
+    21300058: espiritu_DosGolpes_29
+    21300060: espiritu_DosGolpes_G1_f3
+    21300062: espiritu_DosGolpes_31
+    21300064: espiritu_DosGolpes_32
+    21300066: espiritu_DosGolpes_G2_f3
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G1_f2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 328
+        width: 111
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e56d0eac8269904fa207a558b33a198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G2_f1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 132
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b9e79916ad7f4f8c09813c6f0a97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G2_f2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 119
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c21bb40ef88a440a54a25d8f26ec7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G1_f1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 130
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d185c29cb9d12f42ac7d7798f714fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G1_f3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 323
+        width: 112
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a93748b8f068f42aab335fb7d92f37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: espiritu_DosGolpes_G2_f3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 133
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3387472be0fc7a478b6ba2607230deb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bd920488f5f6d154e988c5e07f32b15c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
