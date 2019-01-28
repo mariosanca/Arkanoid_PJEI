@@ -1,13 +1,9 @@
 fileFormatVersion: 2
-guid: 03e924e5ec077dc4f88792a9a4280792
+guid: 0e9941588205ad24988c4f2fa81b0775
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Boton_info
-    21300002: Boton_mute
-    21300004: Boton_atras
-    21300006: Boton_sonido
-    21300008: Icono_vida
-    21300010: Boton_pause
+    21300000: "animaci\xF3n cascada vapor_0"
+    21300002: cascada vapor_f2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -48,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -101,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boton_info
+      name: "animaci\xF3n cascada vapor_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 1016
-        width: 378
-        height: 362
+        y: 648
+        width: 1097
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,99 +111,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd740985befc7b4fb1366c13d373062
+      spriteID: 5abe4647dd9f9e74f81dda603ba25919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boton_mute
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 1016
-        width: 378
-        height: 362
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2a4af729488e134eb1f9c5d4aeacb50
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boton_atras
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 494
-        width: 380
-        height: 390
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6751916d3b68b3e4fa393ea4bcd42b25
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boton_sonido
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 494
-        width: 380
-        height: 392
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11ae4e1d71cc8304d8cc813a78929382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Icono_vida
+      name: cascada vapor_f2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 347
-        height: 362
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 326aae23ff4b6fe4d9193ab5ce549a0b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boton_pause
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 0
-        width: 380
-        height: 366
+        width: 1097
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,7 +131,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad1eb9ae3d39b074395ef9ef27f770df
+      spriteID: 6e7710975580af74296b43a0348d40d0
       vertices: []
       indices: 
       edges: []
@@ -223,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 98c245775477c06468dfac7754784f62
+    spriteID: 966acc3383e3a4f4a94aa9936f1331f0
     vertices: []
     indices: 
     edges: []
