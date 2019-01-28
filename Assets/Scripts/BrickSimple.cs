@@ -5,7 +5,7 @@ using UnityEngine;
 public class BrickSimple : MonoBehaviour {
 
     public GameObject[] powerUps;
-    public GameObject runa;
+    
 
     // Use this for initialization
     void Start () {
@@ -24,7 +24,7 @@ public class BrickSimple : MonoBehaviour {
         {
             Destroy(gameObject);
 
-            int numeAle = Random.Range(0, 100);
+            int numeAle = Random.Range(0, 50);
 
             if (numeAle < powerUps.Length)
             {
