@@ -28,6 +28,7 @@ public class GameControllerlvlfacil : MonoBehaviour
     public void VolverMenu()
     {
         SceneManager.LoadScene(sceneName: "Menu");
+        Time.timeScale = 1f;
     }
 
     public void Play()
