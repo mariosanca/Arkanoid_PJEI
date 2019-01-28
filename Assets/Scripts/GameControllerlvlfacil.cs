@@ -39,6 +39,6 @@ public class GameControllerlvlfacil : MonoBehaviour
     public void ReiniciarNivel()
     {
         anim_pausa.SetBool("activar", false);
-        SceneManager.LoadScene(sceneName: "lvlFACIL");
+        SceneManager.LoadScene(sceneName: "lvlFACIL ");
     }
 }
