@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class BrickSimple : MonoBehaviour {
 
-    
+    public GameObject[] powerUps;
+    public GameObject runa;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -22,6 +23,14 @@ public class BrickSimple : MonoBehaviour {
         if (col.gameObject.CompareTag("bola"))
         {
             Destroy(gameObject);
+
+            int numeAle = Random.Range(0, 100);
+
+            if (numeAle < powerUps.Length)
+            {
+                Instantiate(powerUps[numeAle], transform.position, transform.rotation);
+            }
+            
         }
     }
 }
