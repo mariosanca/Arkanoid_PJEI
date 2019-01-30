@@ -9,6 +9,8 @@ public class PowerKiss : MonoBehaviour
     GameObject barra;
     float duracion;
 
+    bool activado = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,23 +20,34 @@ public class PowerKiss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("runa"))
         {
-
-            Pegote();
+            activado = true;
+            
         }
     }
 
     void Pegote()
     {
-        if (Time.time < duracion)
+
+    }
+
+    
+    private void OnCollisionEnter2D(Collision2D co)
+    {
+        if (co.gameObject.CompareTag("bola"))
         {
+            GetComponent<PlayerMovement>().VelCero();
 
         }
     }
+
+    
+
+
 }

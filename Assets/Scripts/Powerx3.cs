@@ -23,16 +23,16 @@ public class Powerx3 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("runa"))
+        if (col.gameObject.CompareTag("barra"))
         {
 
             numeroBolas = GameObject.FindGameObjectsWithTag("bola");
 
             for (int i = 0; i < numeroBolas.Length; i++)
             {
-                Instantiate(bola, transform.position, bola.transform.rotation);
-                Instantiate(bola, transform.position, bola.transform.rotation);
-                Instantiate(bola, transform.position, bola.transform.rotation);
+                GetComponent<PlayerMovement>().InstanciaBola();
+                GetComponent<PlayerMovement>().InstanciaBola();
+                GetComponent<PlayerMovement>().InstanciaBola();
             }
 
             

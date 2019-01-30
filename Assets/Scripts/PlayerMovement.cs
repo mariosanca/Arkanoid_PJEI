@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private Vector3 mousePosition;
     public float moveSpeed = 0.1f;
+    public GameObject bola;
 
     // Use this for initialization
     void Start () {
@@ -20,5 +21,15 @@ public class PlayerMovement : MonoBehaviour {
         mousePosition.y = -4;
         transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
 
+    }
+
+    public void VelCero()
+    {
+        moveSpeed = 0;
+    }
+
+    public void InstanciaBola()
+    {
+        Instantiate(bola, transform.position, bola.transform.rotation);
     }
 }
