@@ -11,12 +11,15 @@ public class GameControllerInGame : MonoBehaviour
   
 
     public Text textoVida;
+    public Text textoTiempo;
 
     public GameObject bola;
 
     public Animator anim_pausa;
 
     public Transform origen;
+
+    float Timer = 0;
 
     
     void Start()
@@ -28,7 +31,8 @@ public class GameControllerInGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Timer += Time.deltaTime;
+        textoTiempo.text = Timer.ToString();
     }
 
     public void Pausa()
