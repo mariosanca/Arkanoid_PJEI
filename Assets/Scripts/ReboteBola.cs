@@ -8,6 +8,10 @@ public class ReboteBola : MonoBehaviour
     Rigidbody2D rb;
     public float speed = 5;
 
+    bool activKiss = false;
+
+    public GameObject barra;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +32,26 @@ public class ReboteBola : MonoBehaviour
 
             Vector2 direction = new Vector2(factor, 1).normalized;
 
-            rb.velocity = direction * speed;
+            if (!activKiss)
+            {
+                rb.velocity = direction * speed;
+            }
+            else
+            {
+                rb.velocity = Vector2.zero;
+            }
+            
         }
     }
 
     private float HitFactor(float barraSize, float ballPosition, float barraPosition)
     {
         return (ballPosition-barraPosition)/barraSize;
+    }
+
+    public void ActivPowerKiss()
+    {
+        activKiss = true;
+        transform.parent = barra.transform;
     }
 }

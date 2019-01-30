@@ -5,9 +5,8 @@ using UnityEngine;
 public class PowerKiss : MonoBehaviour
 {
 
-    public GameObject bola;
     GameObject barra;
-    float duracion;
+    
 
     bool activado = false;
 
@@ -25,29 +24,20 @@ public class PowerKiss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("runa"))
+        if (col.gameObject.CompareTag("Player"))
         {
-            activado = true;
-            
-        }
-    }
+            Debug.Log("colis");
+            GameObject[] bolas = GameObject.FindGameObjectsWithTag("bola");
 
-    void Pegote()
-    {
-
-    }
-
-    
-    private void OnCollisionEnter2D(Collision2D co)
-    {
-        if (co.gameObject.CompareTag("bola"))
-        {
-            GetComponent<PlayerMovement>().VelCero();
+            for (int i = 0; i < bolas.Length; i++)
+            {
+                bolas[i].GetComponent<ReboteBola>().ActivPowerKiss();
+            }
 
         }
     }
 
-    
+
 
 
 }
