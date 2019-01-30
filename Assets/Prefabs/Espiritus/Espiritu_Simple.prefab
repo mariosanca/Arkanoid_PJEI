@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5166098930579713184}
   - component: {fileID: 5166098930579713185}
   - component: {fileID: 5166098930579713186}
-  - component: {fileID: 5327515073658756425}
+  - component: {fileID: 4401124106223920163}
   - component: {fileID: 7200826950534424779}
   m_Layer: 0
   m_Name: Espiritu_Simple
@@ -101,8 +101,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &5327515073658756425
-BoxCollider2D:
+--- !u!58 &4401124106223920163
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -114,19 +114,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07528269, y: -0.40980196}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.775, y: 1.325}
-    newSize: {x: 1.55, y: 2.65}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: -0.1, y: -0.41192794}
   serializedVersion: 2
-  m_Size: {x: 0.47783208, y: 0.4479928}
-  m_EdgeRadius: 0
+  m_Radius: 0.2505721
 --- !u!114 &7200826950534424779
 MonoBehaviour:
   m_ObjectHideFlags: 0

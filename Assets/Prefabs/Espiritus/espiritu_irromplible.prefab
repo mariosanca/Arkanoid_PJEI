@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5602961441000182180}
   - component: {fileID: 5602961441000182183}
   - component: {fileID: 5602961441000182182}
-  - component: {fileID: 8147645992519775352}
+  - component: {fileID: 45576045027878669}
   - component: {fileID: 5629436450566444954}
   m_Layer: 0
   m_Name: espiritu_irromplible
@@ -101,8 +101,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &8147645992519775352
-BoxCollider2D:
+--- !u!58 &45576045027878669
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -114,19 +114,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.30141687}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.435, y: 1}
-    newSize: {x: 0.435, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: -0.28295577}
   serializedVersion: 2
-  m_Size: {x: 0.435, y: 0.39716625}
-  m_EdgeRadius: 0
+  m_Radius: 0.21704423
 --- !u!114 &5629436450566444954
 MonoBehaviour:
   m_ObjectHideFlags: 0
