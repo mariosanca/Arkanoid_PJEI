@@ -1,16 +1,18 @@
 fileFormatVersion: 2
-guid: f1925f96c980f1d4986027bf90335fb7
+guid: 86e3b6863d3b4514fb41df98651c3731
 TextureImporter:
   fileIDToRecycleName:
-    21300000: espititu_TresGolpes_G1_f1
-    21300002: espititu_TresGolpes_G1_f2
-    21300004: espititu_TresGolpes_G1_f3
-    21300006: espititu_TresGolpes_G2_f1
-    21300008: espititu_TresGolpes_G2_f2
-    21300010: espititu_TresGolpes_G2_f3
-    21300012: espititu_TresGolpes_G3_f1
-    21300014: espititu_TresGolpes_G3_f2
-    21300016: espititu_TresGolpes_G3_f3
+    21300000: Modificadores_0
+    21300002: Modificadores_1
+    21300004: Modificadores_2
+    21300006: Modificadores_3
+    21300008: Modificadores_4
+    21300010: Modificadores_5
+    21300012: Modificadores_6
+    21300014: Modificadores_7
+    21300016: Modificadores_8
+    21300018: Modificadores_9
+    21300020: Modificadores_10
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -54,7 +56,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: espititu_TresGolpes_G1_f1
+      name: Modificadores_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 499
-        width: 100
-        height: 221
+        y: 1192
+        width: 462
+        height: 552
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,59 +120,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d5d8f68da3e8fb47addee3d4640f908
+      spriteID: 3cfb1c9dfa21cb8438bbd5d629294af7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G1_f2
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 499
-        width: 121
-        height: 221
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5b7c133d58476c489c0c6895ecea8a0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: espititu_TresGolpes_G1_f3
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 497
-        width: 117
-        height: 223
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcdc3867d98a56145bb6428281b525fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: espititu_TresGolpes_G2_f1
+      name: Modificadores_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 115
-        height: 191
+        y: 201
+        width: 460
+        height: 551
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,19 +140,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1247636e5dcf01c48b21a2145c1c1a90
+      spriteID: a80e5bc6ad736d942a2c20389ab1fa43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G2_f2
+      name: Modificadores_2
       rect:
         serializedVersion: 2
-        x: 184
-        y: 256
-        width: 107
-        height: 190
+        x: 961
+        y: 1407
+        width: 460
+        height: 554
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73de221753dfd8549b08ca84cf038ae0
+      spriteID: d3bd25701689a3844aa5a981768767b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G2_f3
+      name: Modificadores_3
       rect:
         serializedVersion: 2
-        x: 359
-        y: 257
-        width: 116
-        height: 207
+        x: 957
+        y: 680
+        width: 462
+        height: 556
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,19 +180,79 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f552cc3b6e6d3b046bc95134e57b6aaa
+      spriteID: 231b5c10e3f85e340944d33368c9d9eb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G3_f1
+      name: Modificadores_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 963
+        y: 13
+        width: 460
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a5b1b357e5cf74488c89b99559503f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modificadores_5
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1401
+        width: 459
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b47c55c03683648ab8715f199b7e5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modificadores_6
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 681
+        width: 460
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564858a879ba14499a7f6ba614baed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modificadores_7
+      rect:
+        serializedVersion: 2
+        x: 2017
         y: 0
-        width: 116
-        height: 186
+        width: 460
+        height: 549
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,19 +260,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97a691a08f9e3ef47977bd693b7999af
+      spriteID: 85e4f8ac02fe03c49ad2bac71afe79f7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G3_f2
+      name: Modificadores_8
       rect:
         serializedVersion: 2
-        x: 183
-        y: 0
-        width: 108
-        height: 186
+        x: 3048
+        y: 1399
+        width: 461
+        height: 552
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,19 +280,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fa9eb309a537974b998ede757730164
+      spriteID: 632e69f812402754ab75dcc55cb561c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: espititu_TresGolpes_G3_f3
+      name: Modificadores_9
       rect:
         serializedVersion: 2
-        x: 374
+        x: 3048
+        y: 679
+        width: 461
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b2bcec2dfac704da044cad6ea5ac61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modificadores_10
+      rect:
+        serializedVersion: 2
+        x: 3047
         y: 0
-        width: 101
-        height: 187
+        width: 462
+        height: 551
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +320,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532bc2916d6a8654e851066ce65b28ce
+      spriteID: 4fcd0ba2597f83044950d2c3c9c4a574
       vertices: []
       indices: 
       edges: []
@@ -286,7 +328,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a5895a1795fc74b46b3dc1e78c51b9d0
+    spriteID: 1513ac60c34693748a60daaa58edf057
     vertices: []
     indices: 
     edges: []
