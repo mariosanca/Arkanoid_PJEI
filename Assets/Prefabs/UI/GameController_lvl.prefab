@@ -47,7 +47,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 865ed9d4578855842962947870dbaa96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vida: 3
+  altavoz: {fileID: 0}
+  textoVida: {fileID: 0}
+  textoTiempo: {fileID: 0}
+  bola: {fileID: 6110407671448697644, guid: ab0bba1d04e44ba4198e2ba4a1eb5688, type: 3}
   anim_pausa: {fileID: 0}
+  mutear: {fileID: 0}
+  origen: {fileID: 0}
 --- !u!61 &9051020466810955764
 BoxCollider2D:
   m_ObjectHideFlags: 0

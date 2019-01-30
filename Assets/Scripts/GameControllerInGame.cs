@@ -8,7 +8,9 @@ public class GameControllerInGame : MonoBehaviour
 {
 
     public int vida = 3;
-  
+    public bool estaMuted = false;
+
+    public AudioSource altavoz;
 
     public Text textoVida;
     public Text textoTiempo;
@@ -16,6 +18,7 @@ public class GameControllerInGame : MonoBehaviour
     public GameObject bola;
 
     public Animator anim_pausa;
+    public Animator mutear;
 
     public Transform origen;
 
@@ -24,6 +27,7 @@ public class GameControllerInGame : MonoBehaviour
     
     void Start()
     {
+        Invoke("Instancion", 2);
         anim_pausa.SetBool("activar",false);
         textoVida.text = "3";
     }
@@ -58,6 +62,22 @@ public class GameControllerInGame : MonoBehaviour
         anim_pausa.SetBool("activar", false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
+    }
+
+    public void Mutear()
+    {
+        if (estaMuted = false)
+        {
+            altavoz.mute = true;
+            mutear.SetBool("mutear", true);
+            estaMuted = true;
+        }
+        else
+        {
+            altavoz.mute = false;
+            mutear.SetBool("mutear",false);
+        }
+       
     }
 
 
