@@ -950,6 +950,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484ad595d75ddf44c88d0e4dbb0eeee8, type: 3}
+--- !u!1 &1727151975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5162937263883247805, guid: 08bb76ec26ab08941b6bfb31326e3671,
+    type: 3}
+  m_PrefabInstance: {fileID: 5162937264563707177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1727151980
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727151975}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e4363124275fe084692a9b9394829bbd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1970853118 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
@@ -1465,16 +1490,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1970853118}
+    - target: {fileID: 873768463008704570, guid: c7b7eea492629424f871c02fed0a9f7f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VolverMenu
       objectReference: {fileID: 0}
     - target: {fileID: 873768462897594503, guid: c7b7eea492629424f871c02fed0a9f7f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1970853118}
+    - target: {fileID: 873768462897594503, guid: c7b7eea492629424f871c02fed0a9f7f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReiniciarNivel
       objectReference: {fileID: 0}
     - target: {fileID: 873768463525311380, guid: c7b7eea492629424f871c02fed0a9f7f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1970853118}
+    - target: {fileID: 873768463525311380, guid: c7b7eea492629424f871c02fed0a9f7f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b7eea492629424f871c02fed0a9f7f, type: 3}
@@ -1547,15 +1587,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
-      propertyPath: anim_pausa
+      propertyPath: altavoz
       value: 
-      objectReference: {fileID: 339959336}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: bola
-      value: 
-      objectReference: {fileID: 6110407671448697644, guid: ab0bba1d04e44ba4198e2ba4a1eb5688,
-        type: 3}
+      objectReference: {fileID: 1613109557}
     - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: textoVida
@@ -1563,19 +1597,24 @@ PrefabInstance:
       objectReference: {fileID: 1358226066}
     - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
-      propertyPath: origen
-      value: 
-      objectReference: {fileID: 4447244993347755952}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
       propertyPath: textoTiempo
       value: 
       objectReference: {fileID: 789552833}
     - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
-      propertyPath: altavoz
+      propertyPath: anim_pausa
       value: 
-      objectReference: {fileID: 1613109557}
+      objectReference: {fileID: 339959336}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: mutear
+      value: 
+      objectReference: {fileID: 1727151980}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: origen
+      value: 
+      objectReference: {fileID: 4447244993347755952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ddb274ad28e4254b95e2829bb4e841d, type: 3}
 --- !u!4 &4447244993347755952 stripped
@@ -1706,6 +1745,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1970853118}
+    - target: {fileID: 5162937263736044327, guid: 08bb76ec26ab08941b6bfb31326e3671,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pausa
+      objectReference: {fileID: 0}
     - target: {fileID: 5162937263883247807, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
