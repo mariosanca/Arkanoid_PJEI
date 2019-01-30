@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameController : MonoBehaviour
+public class GameController: MonoBehaviour
 {
 
     public Animator animMenuPrincipal;
     public Animator animMenuSeleccion;
     public Animator animInfo;
+
+    public AudioSource audioMenu;
+
 
 
     // Start is called before the first frame update
@@ -17,6 +20,9 @@ public class GameController : MonoBehaviour
         animMenuSeleccion.SetBool("activar",false);
         animMenuPrincipal.SetBool("desActivar", false);
         animInfo.SetBool("activar", false);
+
+        audioMenu = GetComponent<AudioSource>();
+        audioMenu.Play(0);
     }
 
     // Update is called once per frame
