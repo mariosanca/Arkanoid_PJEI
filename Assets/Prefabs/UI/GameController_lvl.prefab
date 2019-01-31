@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 3
+  estaMuted: 0
   altavoz: {fileID: 0}
   textoVida: {fileID: 0}
   textoTiempo: {fileID: 0}

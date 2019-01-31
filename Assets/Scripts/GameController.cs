@@ -9,10 +9,12 @@ public class GameController: MonoBehaviour
     public Animator animMenuPrincipal;
     public Animator animMenuSeleccion;
     public Animator animInfo;
+    public Animator mutear;
 
     public AudioSource audioMenu;
 
 
+    bool estaMuted = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,7 @@ public class GameController: MonoBehaviour
         animMenuSeleccion.SetBool("activar",false);
         animMenuPrincipal.SetBool("desActivar", false);
         animInfo.SetBool("activar", false);
-
+        
         audioMenu = GetComponent<AudioSource>();
         audioMenu.Play(0);
     }
@@ -66,6 +68,16 @@ public class GameController: MonoBehaviour
     public void LvlDificil()
     {
         SceneManager.LoadScene(sceneName: "lvlDIFICIL");
+    }
+
+    public void Mutear()
+    {
+
+        estaMuted = !estaMuted;
+
+        audioMenu.mute = estaMuted;
+        mutear.SetBool("mutear", estaMuted);
+
     }
 
 }

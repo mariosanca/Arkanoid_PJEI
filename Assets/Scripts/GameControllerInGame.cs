@@ -30,6 +30,7 @@ public class GameControllerInGame : MonoBehaviour
         Invoke("Instancion", 2);
         anim_pausa.SetBool("activar",false);
         textoVida.text = "3";
+        
     }
 
     // Update is called once per frame
@@ -64,20 +65,16 @@ public class GameControllerInGame : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+
+    //Funcion para quitar volumen y activarlo ingame
     public void Mutear()
     {
-        if (estaMuted = false)
-        {
-            altavoz.mute = true;
-            mutear.SetBool("mutear", true);
-            estaMuted = true;
-        }
-        else
-        {
-            altavoz.mute = false;
-            mutear.SetBool("mutear",false);
-        }
-       
+
+        estaMuted = !estaMuted;
+
+        altavoz.mute = estaMuted;
+        mutear.SetBool("mutear", estaMuted);
+           
     }
 
 
