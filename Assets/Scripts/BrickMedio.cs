@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BrickMedio : MonoBehaviour
 {
-
+    public GameObject[] powerUps;
     int vida = 2;
 
     Animator anim;
@@ -36,6 +36,17 @@ public class BrickMedio : MonoBehaviour
         if (col.gameObject.CompareTag("bola"))
         {
             vida--;
+
+            Destroy(gameObject);
+
+            int numeAle = Random.Range(0, 50);
+
+            if (numeAle < powerUps.Length)
+            {
+                Instantiate(powerUps[numeAle], transform.position, transform.rotation);
+            }
         }
+
+        
     }
 }

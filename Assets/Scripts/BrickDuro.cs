@@ -7,6 +7,8 @@ public class BrickDuro : MonoBehaviour
     int vida = 3;
 
     Animator anim;
+    public GameObject[] powerUps;
+
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,17 @@ public class BrickDuro : MonoBehaviour
         if (col.gameObject.CompareTag("bola"))
         {
             vida--;
+
+            Destroy(gameObject);
+
+            int numeAle = Random.Range(0, 50);
+
+            if (numeAle < powerUps.Length)
+            {
+                Instantiate(powerUps[numeAle], transform.position, transform.rotation);
+            }
         }
+
+
     }
 }
