@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5629436450566444954}
   m_Layer: 0
   m_Name: espiritu_irromplible
-  m_TagString: Untagged
+  m_TagString: espiritu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

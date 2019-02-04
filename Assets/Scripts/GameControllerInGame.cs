@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameControllerInGame : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class GameControllerInGame : MonoBehaviour
 
     public Animator anim_pausa;
     public Animator mutear;
+    public Animator win;
 
     public Transform origen;
 
@@ -29,15 +31,23 @@ public class GameControllerInGame : MonoBehaviour
     {
         Invoke("Instancion", 2);
         anim_pausa.SetBool("activar",false);
-        textoVida.text = "3";
         
+        textoVida.text = "3";
+
+
     }
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         Timer += Time.deltaTime;
         textoTiempo.text = Timer.ToString();
+        if (GameObject.FindGameObjectsWithTag("espiritu").Length == 0)
+        {
+            win.SetTrigger("activar");
+            Invoke("Irmenu",3);
+            
+        }
     }
 
     public void Pausa()
@@ -99,6 +109,11 @@ public class GameControllerInGame : MonoBehaviour
             Invoke("ReiniciarNivel",2);
         }
         
+    }
+
+    void Irmenu()
+    {
+        SceneManager.LoadScene(sceneName: "Menu");
     }
 
    
