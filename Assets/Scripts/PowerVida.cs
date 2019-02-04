@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PowerVida : MonoBehaviour
 {
+   
 
-    public int vida = 3;
+    public Text textoVida;
+
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +29,11 @@ public class PowerVida : MonoBehaviour
     {
         if (col.gameObject.CompareTag("runa"))
         {
+            
 
-            vida = +1;
+            GetComponent<GameControllerInGame>().SumaVida();
+            textoVida.text = GetComponent<GameControllerInGame>().vida.ToString();
         }
+        Destroy(gameObject);
     }
 }

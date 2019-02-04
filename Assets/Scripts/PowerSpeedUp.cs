@@ -30,7 +30,7 @@ public class PowerSpeedUp : MonoBehaviour
             {
                 bolas[i].GetComponent<ReboteBola>().ActivPowerSpeedUp();
             }
-
+            Destroy(gameObject);
         }
     }
 

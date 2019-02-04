@@ -118,5 +118,9 @@ public class GameControllerInGame : MonoBehaviour
         SceneManager.LoadScene(sceneName: "Menu");
     }
 
+    public void SumaVida()
+    {
+        vida++;
+    }
    
 }

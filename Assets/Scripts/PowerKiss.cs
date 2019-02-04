@@ -32,8 +32,9 @@ public class PowerKiss : MonoBehaviour
             for (int i = 0; i < bolas.Length; i++)
             {
                 bolas[i].GetComponent<ReboteBola>().ActivPowerKiss();
-            }
 
+            }
+            Destroy(gameObject);
         }
     }
 

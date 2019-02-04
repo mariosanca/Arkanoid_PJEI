@@ -27,7 +27,7 @@ public class PowerSpeedDown : MonoBehaviour
             {
                 bolas[i].GetComponent<ReboteBola>().ActivPowerSpeedDown();
             }
-
+            Destroy(gameObject);
         }
     }
 }

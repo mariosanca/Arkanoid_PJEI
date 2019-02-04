@@ -39,7 +39,7 @@ public class BrickMedio : MonoBehaviour
 
             Destroy(gameObject);
 
-            int numeAle = Random.Range(0, 50);
+            int numeAle = Random.Range(0, 25);
 
             if (numeAle < powerUps.Length)
             {

@@ -129,3 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f2cbb1f393f64e4db709f6eadac1c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerUps:
+  - {fileID: 6079769375263560882, guid: f23be56a0ed0ec34b826f36f0cec51e4, type: 3}
+  - {fileID: 4376227158639137446, guid: 93d890e15009db0418c69c9c0b852317, type: 3}
+  - {fileID: 285802668292827186, guid: c0f123e2468633c419c2d7dc8ca32f50, type: 3}
+  - {fileID: 7722820766954633159, guid: d7c7b5b39fc47f14699dde07dffac80e, type: 3}
+  - {fileID: 2905379856146801167, guid: a10c0547be371d047a5f922a644b2a5d, type: 3}

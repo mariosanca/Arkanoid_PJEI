@@ -35,7 +35,7 @@ public class Powerx3 : MonoBehaviour
                 GetComponent<PlayerMovement>().InstanciaBola();
             }
 
-            
+            Destroy(gameObject);
         }
     }
 }
