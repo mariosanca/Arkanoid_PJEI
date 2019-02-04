@@ -90,6 +90,7 @@ public class GameControllerInGame : MonoBehaviour
 
     void Instancion()
     {
+        
         Instantiate(bola, origen.position, bola.transform.rotation);
     }
 

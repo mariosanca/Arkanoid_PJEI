@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 4648582932526072251}
   - component: {fileID: 1832411319742439516}
   - component: {fileID: 6579894097169784025}
+  - component: {fileID: 8967873311419210541}
   m_Layer: 5
   m_Name: Text_victoria
   m_TagString: Untagged
@@ -174,3 +175,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: You won!
+--- !u!114 &8967873311419210541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6624827490669209834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
