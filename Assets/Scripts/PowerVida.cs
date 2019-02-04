@@ -10,8 +10,8 @@ public class PowerVida : MonoBehaviour
 
     public Text textoVida;
 
-    
 
+    public GameObject gameControl;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +31,7 @@ public class PowerVida : MonoBehaviour
         {
             
 
-            GetComponent<GameControllerInGame>().SumaVida();
+            gameControl.GetComponent<GameControllerInGame>().SumaVida();
             textoVida.text = GetComponent<GameControllerInGame>().vida.ToString();
         }
         Destroy(gameObject);

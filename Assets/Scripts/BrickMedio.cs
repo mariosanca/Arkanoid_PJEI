@@ -37,7 +37,7 @@ public class BrickMedio : MonoBehaviour
         {
             vida--;
 
-            Destroy(gameObject);
+            
 
             int numeAle = Random.Range(0, 25);
 

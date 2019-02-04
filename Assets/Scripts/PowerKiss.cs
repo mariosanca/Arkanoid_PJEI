@@ -5,15 +5,10 @@ using UnityEngine;
 public class PowerKiss : MonoBehaviour
 {
 
-    GameObject barra;
-    
-
-    bool activado = false;
-
     // Start is called before the first frame update
     void Start()
     {
-        barra = GetComponent<GameObject>();
+        
     }
 
     // Update is called once per frame

@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public void InstanciaBola()
     {
-        Instantiate(bola, transform.position, bola.transform.rotation);
+        Instantiate(bola, bola.transform.position, bola.transform.rotation);
     }
 
     

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6110407671448697643}
   - component: {fileID: 6110407671448697642}
   - component: {fileID: 6110407671448697645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bola
   m_TagString: bola
   m_Icon: {fileID: 0}
@@ -132,4 +132,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  barra: {fileID: 0}
+  barra: {fileID: 2916659625146877098, guid: a1a5edc56b91c4b459db46c19aa24011, type: 3}

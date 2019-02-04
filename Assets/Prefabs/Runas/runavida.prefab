@@ -133,3 +133,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoVida: {fileID: 330545743428976573, guid: 08e3d3cefdcf75e45a74f1d4b5ce449e,
     type: 3}
+  gameControl: {fileID: 6929243735921463055, guid: e59fe59ec3f8aa74989e626037dfd6a6,
+    type: 3}

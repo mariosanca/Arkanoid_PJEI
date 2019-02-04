@@ -131,4 +131,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb7b336b44e2fe4dadb9bb09241b68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bola: {fileID: 6110407671448697644, guid: ab0bba1d04e44ba4198e2ba4a1eb5688, type: 3}
+  barra: {fileID: 2916659625146877098, guid: a1a5edc56b91c4b459db46c19aa24011, type: 3}

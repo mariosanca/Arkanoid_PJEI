@@ -5,9 +5,7 @@ using UnityEngine;
 public class Powerx3 : MonoBehaviour
 {
 
-    public GameObject bola;
-
-    GameObject[] numeroBolas;
+    public GameObject barra;
 
     // Start is called before the first frame update
     void Start()
@@ -26,16 +24,17 @@ public class Powerx3 : MonoBehaviour
         if (col.gameObject.CompareTag("Player"))
         {
 
-            numeroBolas = GameObject.FindGameObjectsWithTag("bola");
+            GameObject[] numeroBolas = GameObject.FindGameObjectsWithTag("bola");
+            
 
             for (int i = 0; i < numeroBolas.Length; i++)
             {
-                GetComponent<PlayerMovement>().InstanciaBola();
-                GetComponent<PlayerMovement>().InstanciaBola();
-                GetComponent<PlayerMovement>().InstanciaBola();
+                barra.GetComponent<PlayerMovement>().InstanciaBola();
+                barra.GetComponent<PlayerMovement>().InstanciaBola();
+                barra.GetComponent<PlayerMovement>().InstanciaBola();
             }
 
-            Destroy(gameObject);
+        Destroy(gameObject);
         }
     }
 }

@@ -10,8 +10,6 @@ public class ReboteBola : MonoBehaviour
 
     bool activKiss = false;
 
-    public GameObject barra;
-
     bool hacerHijo = false;
 
     // Start is called before the first frame update
@@ -56,6 +54,7 @@ public class ReboteBola : MonoBehaviour
 
             if (hacerHijo == true)
             {
+                GameObject barra = GameObject.FindGameObjectWithTag("Player");
                 transform.parent = barra.transform;
             }
   
@@ -72,8 +71,7 @@ public class ReboteBola : MonoBehaviour
     {
         activKiss = true;
         hacerHijo = true;
-        
-    
+
     }
 
     public void ActivPowerSpeedUp()
