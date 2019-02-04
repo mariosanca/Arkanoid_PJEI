@@ -26,7 +26,7 @@ public class PowerKiss : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("colis");
+            
             GameObject[] bolas = GameObject.FindGameObjectsWithTag("bola");
 
             for (int i = 0; i < bolas.Length; i++)
@@ -36,6 +36,8 @@ public class PowerKiss : MonoBehaviour
 
         }
     }
+
+    
 
 
 

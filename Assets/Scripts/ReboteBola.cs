@@ -12,6 +12,8 @@ public class ReboteBola : MonoBehaviour
 
     public GameObject barra;
 
+    bool hacerHijo = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +23,16 @@ public class ReboteBola : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            activKiss = false;
+            transform.parent = null;
+            hacerHijo = false;
+
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnCollisionStay2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
@@ -32,14 +40,25 @@ public class ReboteBola : MonoBehaviour
 
             Vector2 direction = new Vector2(factor, 1).normalized;
 
-            if (!activKiss)
+
+                if (!activKiss)
+                {
+                    rb.velocity = direction * speed;
+                    
+                    
+                }
+                else
+                {
+                    rb.velocity = Vector2.zero;
+                }
+
+
+
+            if (hacerHijo == true)
             {
-                rb.velocity = direction * speed;
+                transform.parent = barra.transform;
             }
-            else
-            {
-                rb.velocity = Vector2.zero;
-            }
+  
             
         }
     }
@@ -52,6 +71,15 @@ public class ReboteBola : MonoBehaviour
     public void ActivPowerKiss()
     {
         activKiss = true;
-        transform.parent = barra.transform;
+        hacerHijo = true;
+        
+    
     }
+
+    public void ActivPowerSpeedUp()
+    {
+        rb.velocity = rb.velocity * 2;
+    } 
+
+    
 }
