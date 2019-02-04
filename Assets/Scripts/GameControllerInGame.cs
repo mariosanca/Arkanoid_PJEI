@@ -42,6 +42,7 @@ public class GameControllerInGame : MonoBehaviour
     {
         Timer += Time.deltaTime;
         textoTiempo.text = Timer.ToString();
+
         if (GameObject.FindGameObjectsWithTag("espiritu").Length == 0)
         {
             win.SetTrigger("activar");
