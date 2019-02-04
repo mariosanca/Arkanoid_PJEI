@@ -79,7 +79,12 @@ public class ReboteBola : MonoBehaviour
     public void ActivPowerSpeedUp()
     {
         rb.velocity = rb.velocity * 2;
-    } 
+    }
 
-    
+    public void ActivPowerSpeedDown()
+    {
+        rb.velocity = rb.velocity / 100;
+    }
+
+
 }

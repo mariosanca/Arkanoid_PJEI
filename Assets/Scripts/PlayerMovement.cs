@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour {
         mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
         mousePosition.y = -4;
-        transform.position = Vector2.Lerp(transform.position, mousePosition, moveSpeed);
+        transform.position = Vector2.MoveTowards(transform.position, mousePosition, moveSpeed * Time.deltaTime);
 
     }
 
