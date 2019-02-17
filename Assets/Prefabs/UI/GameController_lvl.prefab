@@ -57,6 +57,8 @@ MonoBehaviour:
   mutear: {fileID: 0}
   win: {fileID: 0}
   origen: {fileID: 0}
+  selector: {fileID: 6929243735921463055, guid: e59fe59ec3f8aa74989e626037dfd6a6,
+    type: 3}
 --- !u!61 &9051020466810955764
 BoxCollider2D:
   m_ObjectHideFlags: 0

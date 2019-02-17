@@ -26,6 +26,9 @@ public class GameControllerInGame : MonoBehaviour
 
     float Timer = Mathf.Round(0);
 
+    public GameObject selector;
+
+    
     
     void Start()
     {
@@ -47,7 +50,8 @@ public class GameControllerInGame : MonoBehaviour
         {
             win.SetTrigger("activar");
             Invoke("Irmenu",3);
-            
+
+            selector.GetComponent<SelectorNivel>().PasarNivel();
         }
     }
 

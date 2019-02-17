@@ -240,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 58, y: 56.4}
+  m_AnchoredPosition: {x: 58, y: 56.399902}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &182136675
@@ -1066,11 +1066,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1704306953}
     m_Modifications:
-    - target: {fileID: 2197377550464630721, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
-        type: 3}
-      propertyPath: m_Name
-      value: Boton_mute
-      objectReference: {fileID: 0}
     - target: {fileID: 2197377550464630720, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1176,15 +1171,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2197377550464630723, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
+    - target: {fileID: 2197377550464630721, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 119120392}
-    - target: {fileID: 2197377550464630723, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Mutear
+      propertyPath: m_Name
+      value: Boton_mute
       objectReference: {fileID: 0}
     - target: {fileID: 2197377550464630722, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
         type: 3}
@@ -1200,6 +1190,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197377550464630723, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 119120392}
+    - target: {fileID: 2197377550464630723, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Mutear
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab0c9dbbf1c9a9b4e80cb4152d383bcc, type: 3}
@@ -2258,7 +2258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -48.3, y: -56.4}
+  m_AnchoredPosition: {x: -48.30005, y: -56.399902}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075234489
@@ -2576,5 +2576,17 @@ PrefabInstance:
       propertyPath: mutear
       value: 
       objectReference: {fileID: 1780426855}
+    - target: {fileID: 209203357, guid: e59fe59ec3f8aa74989e626037dfd6a6, type: 3}
+      propertyPath: BotonesNivel.Array.data[0]
+      value: 
+      objectReference: {fileID: 313875719}
+    - target: {fileID: 209203357, guid: e59fe59ec3f8aa74989e626037dfd6a6, type: 3}
+      propertyPath: BotonesNivel.Array.data[1]
+      value: 
+      objectReference: {fileID: 611080947}
+    - target: {fileID: 209203357, guid: e59fe59ec3f8aa74989e626037dfd6a6, type: 3}
+      propertyPath: BotonesNivel.Array.data[2]
+      value: 
+      objectReference: {fileID: 408005756}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e59fe59ec3f8aa74989e626037dfd6a6, type: 3}

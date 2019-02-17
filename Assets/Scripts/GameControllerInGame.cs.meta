@@ -3,7 +3,17 @@ guid: 865ed9d4578855842962947870dbaa96
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - altavoz: {instanceID: 0}
+  - textoVida: {instanceID: 0}
+  - textoTiempo: {instanceID: 0}
+  - bola: {instanceID: 0}
+  - anim_pausa: {instanceID: 0}
+  - mutear: {instanceID: 0}
+  - win: {instanceID: 0}
+  - origen: {instanceID: 0}
+  - selector: {fileID: 2805974557263207560, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
