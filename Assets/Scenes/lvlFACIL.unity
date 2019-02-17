@@ -515,7 +515,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &339959336 stripped
 Animator:
@@ -777,7 +777,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1104566170
 PrefabInstance:
@@ -993,11 +993,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2916659625146877102, guid: a1a5edc56b91c4b459db46c19aa24011,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a5edc56b91c4b459db46c19aa24011, type: 3}
@@ -1460,7 +1455,7 @@ PrefabInstance:
     - target: {fileID: 5166098930579713184, guid: b1f74100c5ff0b943867b9ae702d0f79,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5166098930579713184, guid: b1f74100c5ff0b943867b9ae702d0f79,
         type: 3}
@@ -1687,6 +1682,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController_InGame
       objectReference: {fileID: 0}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: altavoz
+      value: 
+      objectReference: {fileID: 1613109557}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoVida
+      value: 
+      objectReference: {fileID: 1358226066}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoTiempo
+      value: 
+      objectReference: {fileID: 789552833}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: anim_pausa
+      value: 
+      objectReference: {fileID: 339959336}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: mutear
+      value: 
+      objectReference: {fileID: 1727151980}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 3241028598823926787}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: origen
+      value: 
+      objectReference: {fileID: 4447244993347755952}
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1725,7 +1755,7 @@ PrefabInstance:
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
@@ -1742,41 +1772,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: altavoz
-      value: 
-      objectReference: {fileID: 1613109557}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoVida
-      value: 
-      objectReference: {fileID: 1358226066}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoTiempo
-      value: 
-      objectReference: {fileID: 789552833}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: anim_pausa
-      value: 
-      objectReference: {fileID: 339959336}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: mutear
-      value: 
-      objectReference: {fileID: 1727151980}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: win
-      value: 
-      objectReference: {fileID: 3241028598823926787}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: origen
-      value: 
-      objectReference: {fileID: 4447244993347755952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ddb274ad28e4254b95e2829bb4e841d, type: 3}
 --- !u!95 &3241028598823926787 stripped

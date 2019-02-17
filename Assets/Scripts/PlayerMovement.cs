@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 mousePosition;
     public float moveSpeed = 0.1f;
     public GameObject bola;
+    public GameObject bolaPU;
     
 
     // Use this for initialization
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public void InstanciaBola()
     {
-        Instantiate(bola, bola.transform.position, bola.transform.rotation);
+        Instantiate(bolaPU, bola.transform.position, bola.transform.rotation);
     }
 
     

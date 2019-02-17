@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+
 
 public class GameControllerInGame : MonoBehaviour
 {
@@ -97,7 +97,7 @@ public class GameControllerInGame : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("bola")&& vida>=0)
+        if (collision.gameObject.CompareTag("bola")&& vida>0)
         {
             vida--;
             textoVida.text = vida.ToString();
@@ -108,6 +108,7 @@ public class GameControllerInGame : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("bola") && vida ==0)
         {
+            textoVida.text = vida.ToString();
             Invoke("ReiniciarNivel",2);
         }
         

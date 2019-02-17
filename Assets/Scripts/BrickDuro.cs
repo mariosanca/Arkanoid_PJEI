@@ -39,7 +39,7 @@ public class BrickDuro : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("bola"))
+        if (col.gameObject.CompareTag("bola") || col.gameObject.CompareTag("bolaPU"))
         {
             vida--;
 
