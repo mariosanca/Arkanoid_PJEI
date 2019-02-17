@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: 4a3c48f12271924498f393a32429291c
+guid: 057b944d196a77446afb95ab05eec371
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Tiempo_0
-    21300002: Tiempo_1
+    21300000: Tiempo 1_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -47,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,33 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiempo_0
+      name: Tiempo 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 627
-        height: 899
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c50d604feee4c0741b0edde5bfbf5497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiempo_1
-      rect:
-        serializedVersion: 2
-        x: 907
-        y: 0
-        width: 606
-        height: 899
+        width: 681
+        height: 933
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,7 +110,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 023e3a1105fd63b458cbb83e4fc01f4d
+      spriteID: 9ac74b69fbe8b29479ddeb68db49f384
       vertices: []
       indices: 
       edges: []
@@ -139,7 +118,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b3dd3bc78d490024d8031c5f14896142
+    spriteID: 060c6314f4932bb45840982dfaafeaf7
     vertices: []
     indices: 
     edges: []

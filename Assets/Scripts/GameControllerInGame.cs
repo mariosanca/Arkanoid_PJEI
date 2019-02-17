@@ -24,7 +24,7 @@ public class GameControllerInGame : MonoBehaviour
 
     public Transform origen;
 
-    float Timer = 0;
+    float Timer = Mathf.Round(0);
 
     
     void Start()
@@ -41,7 +41,7 @@ public class GameControllerInGame : MonoBehaviour
     public void Update()
     {
         Timer += Time.deltaTime;
-        textoTiempo.text = Timer.ToString();
+        textoTiempo.text = Timer.ToString("0.00");
 
         if (GameObject.FindGameObjectsWithTag("espiritu").Length == 0)
         {
