@@ -10,6 +10,7 @@ public class GameControllerInGame : MonoBehaviour
 
     public int vida = 3;
     public bool estaMuted = false;
+   
 
     public AudioSource altavoz;
 
@@ -28,7 +29,7 @@ public class GameControllerInGame : MonoBehaviour
 
     public GameObject selector;
 
-    
+    private bool nivelSuperado = false;
     
     void Start()
     {
@@ -36,7 +37,7 @@ public class GameControllerInGame : MonoBehaviour
         anim_pausa.SetBool("activar",false);
         
         textoVida.text = "3";
-
+        nivelSuperado = false;
 
     }
 
@@ -51,7 +52,11 @@ public class GameControllerInGame : MonoBehaviour
             win.SetTrigger("activar");
             Invoke("Irmenu",3);
 
-            selector.GetComponent<SelectorNivel>().PasarNivel();
+            if (!nivelSuperado)
+            {
+                selector.GetComponent<SelectorNivel>().PasarNivel();
+                nivelSuperado = true;
+            }
         }
     }
 
