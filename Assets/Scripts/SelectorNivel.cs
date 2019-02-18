@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,9 +37,7 @@ public class SelectorNivel : MonoBehaviour
 
     public void PasarNivel()
     {
-        int nextLvlSig = nextLvl + 1;
-
-        if (nextLvl < 3 && nextLvl < nextLvlSig )
+        if (nextLvl < 3)
         {
             nextLvl++;
             PlayerPrefs.SetInt("lvlUnlock", nextLvl);
