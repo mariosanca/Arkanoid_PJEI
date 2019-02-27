@@ -30,6 +30,8 @@ public class GameControllerInGame : MonoBehaviour
     public GameObject selector;
 
     private bool nivelSuperado = false;
+
+    public int nivelActual;
     
     void Start()
     {
@@ -50,13 +52,31 @@ public class GameControllerInGame : MonoBehaviour
         if (GameObject.FindGameObjectsWithTag("espiritu").Length == 0)
         {
             win.SetTrigger("activar");
-            Invoke("Irmenu",3);
+            
+
+            if (nivelActual == 1)
+            {
+                Invoke("IrNivel2", 3);
+                
+            }
+
+            if (nivelActual == 2)
+            {
+                Invoke("IrNivel3", 3);
+            }
+
+            if (nivelActual == 3)
+            {
+                Invoke("IrMenu", 3);
+            }
 
             if (!nivelSuperado)
             {
                 selector.GetComponent<SelectorNivel>().PasarNivel();
                 nivelSuperado = true;
             }
+
+            //Time.timeScale = 0f;
         }
     }
 
@@ -123,9 +143,19 @@ public class GameControllerInGame : MonoBehaviour
         
     }
 
-    void Irmenu()
+    void IrMenu()
     {
         SceneManager.LoadScene(sceneName: "Menu");
+    }
+
+    void IrNivel2()
+    {
+        SceneManager.LoadScene(sceneName: "lvlMEDIO");
+    }
+
+    void IrNivel3()
+    {
+        SceneManager.LoadScene(sceneName: "lvlDIFICIL");
     }
 
     public void SumaVida()

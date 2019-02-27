@@ -238,6 +238,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController_lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: altavoz
+      value: 
+      objectReference: {fileID: 1578448059}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoVida
+      value: 
+      objectReference: {fileID: 2127984335}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoTiempo
+      value: 
+      objectReference: {fileID: 2127984334}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: anim_pausa
+      value: 
+      objectReference: {fileID: 799278759}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: mutear
+      value: 
+      objectReference: {fileID: 2127984333}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 1244261774}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: origen
+      value: 
+      objectReference: {fileID: 1251446120}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: nivelActual
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -293,41 +333,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: altavoz
-      value: 
-      objectReference: {fileID: 1578448059}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoVida
-      value: 
-      objectReference: {fileID: 2127984335}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoTiempo
-      value: 
-      objectReference: {fileID: 2127984334}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: anim_pausa
-      value: 
-      objectReference: {fileID: 799278759}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: mutear
-      value: 
-      objectReference: {fileID: 2127984333}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: win
-      value: 
-      objectReference: {fileID: 1244261774}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: origen
-      value: 
-      objectReference: {fileID: 1251446120}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ddb274ad28e4254b95e2829bb4e841d, type: 3}
 --- !u!1 &142501839
@@ -2464,6 +2469,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel_ingame
       objectReference: {fileID: 0}
+    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
     - target: {fileID: 5162937263654384598, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2584,21 +2604,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.9716981
       objectReference: {fileID: 0}
-    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
-        type: 3}
-      propertyPath: m_EffectColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
-        type: 3}
-      propertyPath: m_EffectColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
-        type: 3}
-      propertyPath: m_EffectColor.b
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5162937263736044327, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2639,20 +2644,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Mutear
       objectReference: {fileID: 0}
-    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
-      propertyPath: m_Color.r
-      value: 0.9528302
+      propertyPath: m_EffectColor.r
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
-      propertyPath: m_Color.g
-      value: 0.9528302
+      propertyPath: m_EffectColor.g
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5162937264144527428, guid: 08bb76ec26ab08941b6bfb31326e3671,
+    - target: {fileID: 7315702692082708862, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}
-      propertyPath: m_Color.b
-      value: 0.9528302
+      propertyPath: m_EffectColor.b
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 906722255066546541, guid: 08bb76ec26ab08941b6bfb31326e3671,
         type: 3}

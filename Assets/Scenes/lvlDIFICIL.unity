@@ -1613,6 +1613,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController_lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: anim_pausa
+      value: 
+      objectReference: {fileID: 320576688}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: altavoz
+      value: 
+      objectReference: {fileID: 149715401}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoVida
+      value: 
+      objectReference: {fileID: 1374048723}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoTiempo
+      value: 
+      objectReference: {fileID: 671741542}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: mutear
+      value: 
+      objectReference: {fileID: 790216229}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: origen
+      value: 
+      objectReference: {fileID: 1617405977}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 1329459014}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: nivelActual
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1668,41 +1708,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: anim_pausa
-      value: 
-      objectReference: {fileID: 320576688}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: altavoz
-      value: 
-      objectReference: {fileID: 149715401}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoVida
-      value: 
-      objectReference: {fileID: 1374048723}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoTiempo
-      value: 
-      objectReference: {fileID: 671741542}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: mutear
-      value: 
-      objectReference: {fileID: 790216229}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: origen
-      value: 
-      objectReference: {fileID: 1617405977}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: win
-      value: 
-      objectReference: {fileID: 1329459014}
     - target: {fileID: 2805974557263207561, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: anim_pausa

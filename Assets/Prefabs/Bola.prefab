@@ -132,4 +132,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  barra: {fileID: 2916659625146877098, guid: a1a5edc56b91c4b459db46c19aa24011, type: 3}
