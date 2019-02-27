@@ -597,6 +597,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 484ad595d75ddf44c88d0e4dbb0eeee8, type: 3}
+--- !u!1 &654638765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2916659625146877098, guid: a1a5edc56b91c4b459db46c19aa24011,
+    type: 3}
+  m_PrefabInstance: {fileID: 1279339531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &711591599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,46 +1688,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController_InGame
       objectReference: {fileID: 0}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: altavoz
-      value: 
-      objectReference: {fileID: 1613109557}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoVida
-      value: 
-      objectReference: {fileID: 1358226066}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: textoTiempo
-      value: 
-      objectReference: {fileID: 789552833}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: anim_pausa
-      value: 
-      objectReference: {fileID: 339959336}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: mutear
-      value: 
-      objectReference: {fileID: 1727151980}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: win
-      value: 
-      objectReference: {fileID: 3241028598823926787}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: origen
-      value: 
-      objectReference: {fileID: 4447244993347755952}
-    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
-        type: 3}
-      propertyPath: nivelActual
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2805974557263207566, guid: 2ddb274ad28e4254b95e2829bb4e841d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1777,6 +1743,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: altavoz
+      value: 
+      objectReference: {fileID: 1613109557}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoVida
+      value: 
+      objectReference: {fileID: 1358226066}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: textoTiempo
+      value: 
+      objectReference: {fileID: 789552833}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: barra
+      value: 
+      objectReference: {fileID: 654638765}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: anim_pausa
+      value: 
+      objectReference: {fileID: 339959336}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: mutear
+      value: 
+      objectReference: {fileID: 1727151980}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 3241028598823926787}
+    - target: {fileID: 494591332303260029, guid: 2ddb274ad28e4254b95e2829bb4e841d,
+        type: 3}
+      propertyPath: origen
+      value: 
+      objectReference: {fileID: 4447244993347755952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ddb274ad28e4254b95e2829bb4e841d, type: 3}
 --- !u!95 &3241028598823926787 stripped
@@ -2006,6 +2012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel_win
       objectReference: {fileID: 0}
+    - target: {fileID: 3241028598823926787, guid: 0079fca534e858247989868befcffa99,
+        type: 3}
+      propertyPath: m_UpdateMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2548731534031443546, guid: 0079fca534e858247989868befcffa99,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2110,11 +2121,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3241028598823926787, guid: 0079fca534e858247989868befcffa99,
-        type: 3}
-      propertyPath: m_UpdateMode
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0079fca534e858247989868befcffa99, type: 3}

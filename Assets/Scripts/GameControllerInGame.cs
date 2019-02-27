@@ -18,6 +18,7 @@ public class GameControllerInGame : MonoBehaviour
     public Text textoTiempo;
 
     public GameObject bola;
+    public GameObject barra;
 
     public Animator anim_pausa;
     public Animator mutear;
@@ -76,7 +77,6 @@ public class GameControllerInGame : MonoBehaviour
                 nivelSuperado = true;
             }
 
-            //Time.timeScale = 0f;
         }
     }
 
