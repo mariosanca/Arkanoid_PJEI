@@ -158,6 +158,7 @@ public class GameControllerInGame : MonoBehaviour
         SceneManager.LoadScene(sceneName: "lvlDIFICIL");
     }
 
+
     public void SumaVida()
     {
         vida++;

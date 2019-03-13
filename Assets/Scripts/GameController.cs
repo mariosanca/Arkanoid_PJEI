@@ -70,6 +70,8 @@ public class GameController: MonoBehaviour
         SceneManager.LoadScene(sceneName: "lvlDIFICIL");
     }
 
+   
+
     public void Mutear()
     {
 
